@@ -1,0 +1,25 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# SQL Server local outputs and backups
+*.bak
+*.mdf
+*.ldf
+*.trn
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and generated files
+*.tmp
+*.temp
+~$*
